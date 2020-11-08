@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleHeader">
+        <attr name="headerTitle" format="string|reference"/>
+        <attr name="showBackButton" format="boolean"/>
+        <attr name="showSearchButton" format="boolean"/>
+    </declare-styleable>
+</resources>
