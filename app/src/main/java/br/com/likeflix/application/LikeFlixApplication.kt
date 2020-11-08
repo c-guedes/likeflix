@@ -6,6 +6,7 @@ import br.com.likeflix.di.DependencyModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
+import org.koin.core.logger.Level
 
 
 internal open class LikeFlixApplication : Application() {
@@ -18,7 +19,7 @@ internal open class LikeFlixApplication : Application() {
 
     private fun setupKoin() =
         startKoin {
-            androidLogger()
+            androidLogger(Level.ERROR)
             androidContext(this@LikeFlixApplication)
             modules(
                 DependencyModules.apiModule,

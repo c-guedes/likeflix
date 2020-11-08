@@ -1,5 +1,36 @@
 package br.com.likeflix.data
 
+import br.com.likeflix.API_KEY
+import br.com.likeflix.DEFAULT_LANGUAGE
+import br.com.likeflix.data.model.response.MovieDetailResponse
+import br.com.likeflix.data.model.response.SearchedMoviesResponse
+import io.reactivex.Single
+import retrofit2.http.GET
+import retrofit2.http.Path
+import retrofit2.http.Query
+import retrofit2.http.QueryMap
+
 
 interface LikeFlixApi {
+    @GET("search/movie")
+    fun searchMovie(
+        @Query("api_key") apiKey: String = API_KEY,
+        @Query("language") language: String = DEFAULT_LANGUAGE,
+        @QueryMap options: Map<String, String>
+    ): Single<SearchedMoviesResponse>
+
+    @GET("discover/movie")
+    fun searchMoviesByGenre(
+        @Query("api_key") apiKey: String = API_KEY,
+        @Query("language") language: String = DEFAULT_LANGUAGE,
+        @Query("with_genres") genreId: Int,
+        @Query("page") page: Int
+    ): Single<SearchedMoviesResponse>
+
+    @GET("movie/{movieId}")
+    fun searchMoviesByGenre(
+        @Path("movieId") movieId: Int,
+        @Query("api_key") apiKey: String = API_KEY,
+        @Query("language") language: String = DEFAULT_LANGUAGE,
+    ): Single<MovieDetailResponse>
 }

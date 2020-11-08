@@ -8,3 +8,4 @@ class StateLoading<T> : StateResponse<T>()
 
 fun <T : Any> StateSuccess<*>.getData() = data as T
 fun <T : Throwable> StateError<*>.getError() = error as T
+fun <T : Any> StateSuccess<*>.getSuccessData() = (this as? StateSuccess<*>)?.data as? T
