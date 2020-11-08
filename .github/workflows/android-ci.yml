@@ -1,19 +1,10 @@
-name: Android CI
-
-on: [push]
-
+name: Build
+on: [pull_request, push]
 jobs:
-
-  android-ci:
+  build:
     runs-on: ubuntu-latest
-    container: code0987/android-ci:latest
-
     steps:
-      - uses: actions/checkout@v1
-
-      - name: test
-        run: |
-          npm install
-          export GRADLE_USER_HOME=`pwd`./src/.gradle
-          chmod +x ./src/gradlew
-          ./src/gradlew -p ./src check
+      - name: Checkout the code
+        uses: actions/checkout@v2
+      - name: Build the app
+        run: ./gradlew build
