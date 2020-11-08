@@ -2,6 +2,7 @@ package br.com.likeflix.api
 
 import br.com.likeflix.BASE_URL
 import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -21,7 +22,12 @@ object RetrofitProvider {
     }
 
     private fun providesOkHttpClientBuilder(): OkHttpClient.Builder {
-        return OkHttpClient.Builder()
+        val httpLoggingInterceptor = HttpLoggingInterceptor()
+        return OkHttpClient.Builder().addInterceptor(
+            httpLoggingInterceptor.apply {
+                httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BODY
+            }
+        )
     }
 
     private fun providesRetrofitClient(okHttpClient: OkHttpClient): Retrofit {
