@@ -7,10 +7,7 @@ jobs:
       - name: Build the app
         run: ./gradlew build
 
-        apk:
           name: Generate APK
-          runs-on: ubuntu-18.04
-
           steps:
             - uses: actions/checkout@v1
             - name: set up JDK 1.8
