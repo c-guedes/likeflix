@@ -1,4 +1,7 @@
-![badge](https://action-badges.now.sh/c-guedes/likeflix)
+
+
+[![Actions Status](https://github.com/c-guedes/likeflix/workflows/android-runner/badge.svg)](https://github.com/c-guedes/likeflix/actions)
+
 
 # Basic Project using Clean Code + SOLID Concepts
 
