@@ -5,6 +5,8 @@ import br.com.likeflix.data.LikeFlixApi
 import br.com.likeflix.data.LikeFlixRepository
 import br.com.likeflix.data.LikeFlixRepositoryImpl
 import br.com.likeflix.domain.usecase.GetMoviesByGenreUseCase
+import br.com.likeflix.domain.usecase.GetMoviesByName
+import br.com.likeflix.ui.home.HomeViewModel
 import br.com.likeflix.ui.genrefragment.MoviesGenreViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -12,11 +14,15 @@ import org.koin.dsl.module
 object DependencyModules {
     val useCaseModule = module {
         single { GetMoviesByGenreUseCase(get()) }
+        single { GetMoviesByName(get()) }
     }
 
     val viewModelModule = module {
         viewModel {
             MoviesGenreViewModel(get())
+        }
+        viewModel {
+            HomeViewModel(get())
         }
     }
 

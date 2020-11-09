@@ -7,4 +7,5 @@ import io.reactivex.Single
 interface LikeFlixRepository {
     fun getMovieDetail(): Single<MovieDetailBO>
     fun getMoviesByGenre(genreId: Int, page: Int): Single<SearchedMoviesBO>
+    fun getMoviesByName(movieName: String): Single<SearchedMoviesBO>
 }

@@ -21,4 +21,12 @@ class LikeFlixRepositoryImpl(
             )
         }.map { it.responseToBO() }
     }
+
+    override fun getMoviesByName(movieName: String): Single<SearchedMoviesBO> {
+        return doRequest {
+            api.searchMovieByName(
+                movieName = movieName
+            )
+        }.map { it.responseToBO() }
+    }
 }

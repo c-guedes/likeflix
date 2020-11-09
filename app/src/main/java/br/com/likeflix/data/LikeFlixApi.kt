@@ -8,15 +8,14 @@ import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
-import retrofit2.http.QueryMap
 
 
 interface LikeFlixApi {
     @GET("search/movie")
-    fun searchMovie(
+    fun searchMovieByName(
         @Query("api_key") apiKey: String = API_KEY,
         @Query("language") language: String = DEFAULT_LANGUAGE,
-        @QueryMap options: Map<String, String>
+        @Query("query", encoded = true) movieName: String
     ): Single<SearchedMoviesResponse>
 
     @GET("discover/movie")
