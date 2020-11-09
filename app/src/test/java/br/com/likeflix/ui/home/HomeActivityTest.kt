@@ -29,7 +29,6 @@ class HomeActivityTest : AutoCloseKoinTest() {
     fun `when user search whatever movie should be success`() {
         robot arrange {
             mockWithSuccess()
-            setupKoin()
             startActivity()
         } act {
             searchMoviesByName()
@@ -42,7 +41,6 @@ class HomeActivityTest : AutoCloseKoinTest() {
     fun `when user search whatever movie should be failed`() {
         robot arrange {
             mockWithError()
-            setupKoin()
             startActivity()
         } act {
             searchMoviesByName()
@@ -54,7 +52,6 @@ class HomeActivityTest : AutoCloseKoinTest() {
     @Test
     fun `when user enters on home activity should display correctly tabs`() {
         robot arrange {
-            setupKoin()
             startActivity()
         } act {
             // do nothing

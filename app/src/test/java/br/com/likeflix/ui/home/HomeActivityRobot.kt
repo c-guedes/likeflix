@@ -1,14 +1,12 @@
 package br.com.likeflix.ui.home
 
 import android.widget.SearchView
-import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import br.com.likeflix.*
 import br.com.likeflix.data.StateError
 import br.com.likeflix.data.StateSuccess
 import br.com.likeflix.data.model.mapper.SearchedMoviesMapper.responseToBO
 import br.com.likeflix.data.model.response.SearchedMoviesResponse
-import br.com.likeflix.di.DependencyModules
 import br.com.likeflix.domain.SearchedMoviesBO
 import br.com.likeflix.domain.usecase.GetMoviesByName
 import com.google.android.material.tabs.TabLayout
@@ -18,13 +16,9 @@ import io.mockk.spyk
 import io.reactivex.Single
 import junit.framework.Assert.assertEquals
 import org.jetbrains.anko.find
-import org.koin.core.context.loadKoinModules
-import org.koin.core.module.Module
 import org.robolectric.shadows.ShadowActivity
 
 class HomeActivityRobot {
-    private val koinModules =
-        listOf<Module>(DependencyModules.useCaseModule, DependencyModules.viewModelModule)
     lateinit var roboletricBuilder: RoboletricBuilder<HomeActivity>
     lateinit var viewModel: HomeViewModel
     lateinit var subject: HomeActivity
@@ -36,10 +30,6 @@ class HomeActivityRobot {
         ).responseToBO()
 
     inner class Arrange {
-        fun setupKoin() {
-            loadKoinModules(koinModules)
-        }
-
         fun startActivity() {
             viewModel = spyk(HomeViewModel(useCase))
             roboletricBuilder = startActivityPausingLooper()

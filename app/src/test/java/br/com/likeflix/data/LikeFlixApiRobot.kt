@@ -5,6 +5,7 @@ import br.com.likeflix.data.model.response.SearchedMoviesResponse
 import br.com.likeflix.readResource
 import io.mockk.every
 import io.mockk.mockk
+import io.reactivex.Single
 
 class LikeFlixApiRobot {
     private val subject = mockk<LikeFlixApi>()
@@ -15,7 +16,7 @@ class LikeFlixApiRobot {
 
     inner class Arrange {
         fun mockSearchMovieByNameWithSuccess() {
-            every { subject.searchMovieByName(movieName = any()) } returns response
+            every { subject.searchMovieByName(movieName = any()) } returns Single.just(response)
         }
 
         fun mockSearchMoviesByGenreWithSuccess() {
@@ -24,7 +25,7 @@ class LikeFlixApiRobot {
                     genreId = any(),
                     page = any()
                 )
-            } returns response
+            } returns Single.just(response)
         }
 
         infix fun act(func: Act.() -> Unit) =
@@ -33,14 +34,14 @@ class LikeFlixApiRobot {
 
     inner class Act {
         fun searchMovieByName(): SearchedMoviesResponse {
-            return subject.searchMovieByName(movieName = "teste")
+            return subject.searchMovieByName(movieName = "teste").blockingGet()
         }
 
         fun searchMovieByGenre(): SearchedMoviesResponse {
             return subject.searchMoviesByGenre(
                 genreId = 1,
                 page = 1
-            )
+            ).blockingGet()
         }
 
         infix fun assert(func: Assert.() -> Unit) =
