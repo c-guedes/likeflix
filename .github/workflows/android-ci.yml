@@ -25,6 +25,7 @@ jobs:
   lint:
     name: Lint Check
     runs-on: ubuntu-18.04
+    needs: build
 
     steps:
       - uses: actions/checkout@v1
@@ -43,6 +44,7 @@ jobs:
   test:
     name: Run Unit Tests
     runs-on: ubuntu-18.04
+    needs: [build, lint]
 
     steps:
       - uses: actions/checkout@v1
@@ -61,6 +63,7 @@ jobs:
   apk:
     name: Generate APK
     runs-on: ubuntu-18.04
+    needs: [build, lint, test]
 
     steps:
       - uses: actions/checkout@v1
