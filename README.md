@@ -8,4 +8,4 @@ Search and filter movives using an API REST from The MovieDB
 * MVVM
 * LiveData
 
-<img src="sample.gif" align="left" style="height:50%" height="600" width="300" >
+<img src="app.png" align="left" style="height:50%" height="600" width="300" >
