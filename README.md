@@ -1,7 +1,11 @@
-Basic Project using Clean Code + SOLID Concepts, search and filter movives using an API REST from The MovieDB
+# Basic Project using Clean Code + SOLID Concepts
 
-Repository
-UseCase
-DependencyInjector (Koin)
-MVVM
-LiveData
+Search and filter movives using an API REST from The MovieDB
+
+* Repository
+* UseCase
+* DependencyInjector (Koin)
+* MVVM
+* LiveData
+
+<img src="sample.gif" align="left" style="height:50%" height="600" width="300" >
