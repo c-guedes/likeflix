@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LikeFlix</string>
+    <string name="queryMovie">digite o nome de um filme..</string>
+    <string name="movies_search_menu">movies search</string>
 </resources>
