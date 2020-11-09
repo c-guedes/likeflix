@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.widget.SearchView
-import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import br.com.likeflix.BaseActivity
@@ -18,6 +17,7 @@ import br.com.likeflix.ui.moviedetail.MovieDetailActivity
 import br.com.likeflix.ui.pageAdapter.GenresPagerAdapter
 import br.com.likeflix.util.bind
 import br.com.likeflix.util.nonNullObserve
+import br.com.likeflix.util.toggleVisibility
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main_tabs.*
@@ -71,7 +71,6 @@ class HomeActivity : BaseActivity(
         vpMovies.isUserInputEnabled = false
     }
 
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
         inflater.inflate(R.menu.movies_menu, menu)
@@ -87,7 +86,7 @@ class HomeActivity : BaseActivity(
         queryHint = getString(R.string.queryMovie)
         setOnQueryTextListener(this@HomeActivity)
         setOnCloseListener {
-            rvSearchMovie.isVisible = false
+            rvSearchMovie.toggleVisibility(false)
             false
         }
     }
@@ -109,7 +108,7 @@ class HomeActivity : BaseActivity(
     override fun onQueryTextChange(newText: String): Boolean {
         if (newText.length >= DEFAULT_INDEX) {
             viewModel.searchMovieByName(newText)
-            rvSearchMovie.isVisible = true
+            rvSearchMovie.toggleVisibility(true)
         }
         return true
     }

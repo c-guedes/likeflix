@@ -9,10 +9,6 @@ import io.reactivex.Single
 class LikeFlixRepositoryImpl(
     private val api: LikeFlixApi
 ) : LikeFlixRepository {
-    override fun getMovieDetail(): Single<MovieDetailBO> {
-        TODO("Not yet implemented")
-    }
-
     override fun getMoviesByGenre(genreId: Int, page: Int): Single<SearchedMoviesBO> {
         return doRequest {
             api.searchMoviesByGenre(
