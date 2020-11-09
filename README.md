@@ -1,3 +1,5 @@
+![badge](https://action-badges.now.sh/c-guedes/likeflix)
+
 # Basic Project using Clean Code + SOLID Concepts
 
 Search and filter movives using an API REST from The MovieDB
