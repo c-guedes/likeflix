@@ -27,6 +27,11 @@ class MoviesAdapter(
         notifyDataSetChanged()
     }
 
+    fun setMoviesList(list: MutableList<MovieBO>) {
+        moviesList = list
+        notifyDataSetChanged()
+    }
+
     override fun getItemCount(): Int =
         moviesList.size
 

@@ -1,4 +1,4 @@
-package br.com.likeflix.ui
+package br.com.likeflix.ui.pageAdapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
