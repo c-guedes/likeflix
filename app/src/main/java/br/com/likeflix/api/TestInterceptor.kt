@@ -7,27 +7,19 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
 fun <T> doRequest(
-    hasChainedRequest: Boolean = false,
-    doOnError: (() -> Unit)? = null,
-    backendCall: () -> T
+    backendCall: () -> Single<T>
 ): Single<T> {
-    return singleCallable(backendCall)
-        .requestIt(hasChainedRequest, doOnError)
+    return backendCall().defaultSchedulers()
 }
 
-private fun <T> Single<T>.requestIt(
-    hasChainedRequest: Boolean,
-    doOnError: (() -> Unit)?
-): Single<T> {
-    return doOnSubscribe {}.doFinally { }.doOnError { doOnError?.invoke() }
-}
 
-//Main Thread scheduler
-fun ui(): Scheduler = AndroidSchedulers.mainThread()
-
-fun <T> singleCallable(backendCall: () -> T): Single<T> =
+private fun <T> singleCallable(backendCall: () -> T): Single<T> =
     Single.fromCallable {
         backendCall.invoke()
-    }.defaultSchedulers()
+    }
 
-fun <T> Single<T>.defaultSchedulers(): Single<T> = subscribeOn(Schedulers.io()).observeOn(ui())
+private fun <T> Single<T>.defaultSchedulers(): Single<T> =
+    subscribeOn(Schedulers.io()).observeOn(ui())
+
+//Main Thread scheduler
+private fun ui(): Scheduler = AndroidSchedulers.mainThread()

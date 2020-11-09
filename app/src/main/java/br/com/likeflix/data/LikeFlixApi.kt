@@ -16,7 +16,7 @@ interface LikeFlixApi {
         @Query("api_key") apiKey: String = API_KEY,
         @Query("language") language: String = DEFAULT_LANGUAGE,
         @Query("query", encoded = true) movieName: String
-    ): SearchedMoviesResponse
+    ): Single<SearchedMoviesResponse>
 
     @GET("discover/movie")
     fun searchMoviesByGenre(
@@ -24,5 +24,5 @@ interface LikeFlixApi {
         @Query("language") language: String = DEFAULT_LANGUAGE,
         @Query("with_genres") genreId: Int,
         @Query("page") page: Int
-    ): SearchedMoviesResponse
+    ): Single<SearchedMoviesResponse>
 }
