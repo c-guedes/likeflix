@@ -14,12 +14,13 @@ import io.reactivex.Single
 import io.reactivex.observers.TestObserver
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.koin.test.AutoCloseKoinTest
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [Build.VERSION_CODES.O_MR1], manifest = Config.NONE)
-class GetMoviesByNameTest {
+class GetMoviesByNameTest: AutoCloseKoinTest()  {
     private val repository = mockk<LikeFlixRepository>(relaxed = true)
     private val useCase = GetMoviesByName(repository)
     private val observer = TestObserver<SearchedMoviesBO>()
