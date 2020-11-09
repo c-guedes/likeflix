@@ -1,0 +1,419 @@
+{
+  "page": 2,
+  "total_results": 10000,
+  "total_pages": 500,
+  "results": [
+    {
+      "popularity": 238.96,
+      "vote_count": 12,
+      "video": false,
+      "poster_path": "/3rxKic2PDrheSXMCG82vm9LAm8e.jpg",
+      "id": 704630,
+      "adult": false,
+      "backdrop_path": "/tvjpxSdsoJG5hNfZE7EBqHily6l.jpg",
+      "original_language": "en",
+      "original_title": "ASYLUM: Twisted Horror and Fantasy Tales",
+      "genre_ids": [
+        35,
+        27,
+        878
+      ],
+      "title": "ASYLUM: Twisted Horror and Fantasy Tales",
+      "vote_average": 7,
+      "overview": "",
+      "release_date": "2020-07-02"
+    },
+    {
+      "popularity": 201.086,
+      "id": 429617,
+      "video": false,
+      "vote_count": 8621,
+      "vote_average": 7.6,
+      "title": "Homem-Aranha: Longe de Casa",
+      "release_date": "2019-06-28",
+      "original_language": "en",
+      "original_title": "Spider-Man: Far from Home",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "backdrop_path": "/5myQbDzw3l8K9yofUXRJ4UTVgam.jpg",
+      "adult": false,
+      "overview": "Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio.",
+      "poster_path": "/tX0o4AdHpidgniTWwfzK0dNTKrc.jpg"
+    },
+    {
+      "popularity": 190.426,
+      "vote_count": 52,
+      "video": false,
+      "poster_path": "/7DRfoa1AgCvB3H0R8vu1UPg2RL1.jpg",
+      "id": 604578,
+      "adult": false,
+      "backdrop_path": "/324jDHMRHWZ8HLbjRJNwVPYJZT0.jpg",
+      "original_language": "en",
+      "original_title": "Spontaneous",
+      "genre_ids": [
+        27,
+        35,
+        10749,
+        878
+      ],
+      "title": "Spontaneous",
+      "vote_average": 7.3,
+      "overview": "Quando os alunos do ensino médio começam inexplicavelmente a explodir, Mara e Dylan lutam para sobreviver em um mundo onde cada momento pode ser o seu último.",
+      "release_date": "2020-10-02"
+    },
+    {
+      "popularity": 211.266,
+      "vote_count": 245,
+      "video": false,
+      "poster_path": "/3thpx68QtipIZfPttolF3aB50nQ.jpg",
+      "id": 501979,
+      "adult": false,
+      "backdrop_path": "/oazPqs1z78LcIOFslbKtJLGlueo.jpg",
+      "original_language": "en",
+      "original_title": "Bill & Ted Face the Music",
+      "genre_ids": [
+        35,
+        878,
+        12
+      ],
+      "title": "Bill & Ted: Encare a Música",
+      "vote_average": 6.3,
+      "overview": "As apostas estão mais altas que nunca para os dois amigos viajantes do tempo, agora já na meia-idade, em uma nova aventura buscando a canção que trará harmonia ao universo, ajudados por suas filhas, figuras históricas e lendas da música.",
+      "release_date": "2020-08-27"
+    },
+    {
+      "popularity": 190.455,
+      "vote_count": 5847,
+      "video": false,
+      "poster_path": "/lFx2i2pg1BoaD7grcpGDyHM1eML.jpg",
+      "id": 181812,
+      "adult": false,
+      "backdrop_path": "/SPkEiZGxq5aHWQ2Zw7AITwSEo2.jpg",
+      "original_language": "en",
+      "original_title": "Star Wars: The Rise of Skywalker",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Star Wars: A Ascensão Skywalker",
+      "vote_average": 6.6,
+      "overview": "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey (Daisy Ridley) ainda se encontra em conflito com seu passado e futuro, mas teme pelas respostas que pode conseguir a partir de sua complexa ligação com Kylo Ren (Adam Driver), que também se encontra em conflito pela Força.",
+      "release_date": "2019-12-18"
+    },
+    {
+      "popularity": 194.267,
+      "id": 577922,
+      "video": false,
+      "vote_count": 2223,
+      "vote_average": 7.5,
+      "title": "Tenet",
+      "release_date": "2020-08-22",
+      "original_language": "en",
+      "original_title": "Tenet",
+      "genre_ids": [
+        28,
+        53,
+        878
+      ],
+      "backdrop_path": "/wzJRB4MKi3yK138bJyuL9nx47y6.jpg",
+      "adult": false,
+      "overview": "Armado com apenas uma palavra – Tenet – e lutando pela sobrevivência do mundo inteiro, o Protagonista viaja através de um mundo crepuscular de espionagem internacional em uma missão que irá desenrolar em algo para além do tempo real.",
+      "poster_path": "/k68nPLbIST6NP96JmTxmZijEvCA.jpg"
+    },
+    {
+      "popularity": 194.155,
+      "id": 565840,
+      "video": false,
+      "vote_count": 57,
+      "vote_average": 6,
+      "title": "The Immortal Wars: Resurgence",
+      "release_date": "2019-12-13",
+      "original_language": "en",
+      "original_title": "The Immortal Wars: Resurgence",
+      "genre_ids": [
+        28,
+        878
+      ],
+      "backdrop_path": "/4tSZO8H25jwd5QDoM9EVcSAzeH1.jpg",
+      "adult": false,
+      "overview": "",
+      "poster_path": "/iFGU4UOXlxd0S4ohJI6TmoCTQrk.jpg"
+    },
+    {
+      "popularity": 172.257,
+      "vote_count": 197,
+      "video": false,
+      "poster_path": "/dqK0aiv6Fb3lIO2L8LRmv2Bb39t.jpg",
+      "id": 618354,
+      "adult": false,
+      "backdrop_path": "/bazlsLkNuhy3IuhviepqvlMm2hV.jpg",
+      "original_language": "en",
+      "original_title": "Superman: Man of Tomorrow",
+      "genre_ids": [
+        28,
+        16,
+        878
+      ],
+      "title": "Superman: O Homem do Amanhã",
+      "vote_average": 7.4,
+      "overview": "É o início de uma nova era de heróis, e Metrópolis acaba de conhecer o primeiro. Mas como o estagiário do Daily Planet Clark Kent – trabalhando ao lado da repórter Lois Lane – secretamente exerce seus poderes alienígenas de voo, super-força e visão de raio-x na batalha para sempre, há problemas ainda maiores no horizonte.",
+      "release_date": "2020-08-23"
+    },
+    {
+      "popularity": 180.556,
+      "vote_count": 1680,
+      "video": false,
+      "poster_path": "/9QVsMxpZX6qyYE0yRptbyiR9YOl.jpg",
+      "id": 443791,
+      "adult": false,
+      "backdrop_path": "/ww7eC3BqSbFsyE5H5qMde8WkxJ2.jpg",
+      "original_language": "en",
+      "original_title": "Underwater",
+      "genre_ids": [
+        28,
+        27,
+        878,
+        53
+      ],
+      "title": "Ameaça Profunda",
+      "vote_average": 6.3,
+      "overview": "Um grupo de pesquisadores se encontra em um laboratório subaquático a 11 mil metros de profundidade, quando um terremoto causa a destruição do veículo e expõe a equipe ao risco de morte. Eles são obrigados a caminhar nas profundezas marítimas, com quantidade insuficiente de oxigênio, para tentarem sobreviver.",
+      "release_date": "2020-01-08"
+    },
+    {
+      "popularity": 186.135,
+      "vote_count": 3068,
+      "video": false,
+      "poster_path": "/io4qQplxQPBb6FbG8H0R9Mlleh9.jpg",
+      "id": 453405,
+      "adult": false,
+      "backdrop_path": "/c3F4P2oauA7IQmy4hM0OmRt2W7d.jpg",
+      "original_language": "en",
+      "original_title": "Gemini Man",
+      "genre_ids": [
+        28,
+        18,
+        878,
+        53
+      ],
+      "title": "Projeto Gemini",
+      "vote_average": 6.4,
+      "overview": "Henry Brogan é um assassino de elite que se torna o alvo de um agente misterioso que aparentemente pode prever todos os seus movimentos. Ele logo descobre que o homem que está tentando matá-lo é uma versão mais jovem, rápida e clonada de si mesmo.",
+      "release_date": "2019-10-02"
+    },
+    {
+      "popularity": 205.285,
+      "vote_count": 16,
+      "video": false,
+      "poster_path": "/8jDvtdH327I8TgX3UPdkAsZF1dA.jpg",
+      "id": 582306,
+      "adult": false,
+      "backdrop_path": "/5VKquU8PNujrxLmsYGHf2TCRNFQ.jpg",
+      "original_language": "en",
+      "original_title": "Assassin 33 A.D.",
+      "genre_ids": [
+        878,
+        28,
+        12,
+        9648,
+        36,
+        14
+      ],
+      "title": "Assassin 33 A.D.",
+      "vote_average": 5.9,
+      "overview": "Enquanto pesquisava, um grupo de jovens gênios acidentalmente se deparam com uma conspiração terrorista secreta para criar uma máquina do tempo para voltar no tempo e mudar a história.",
+      "release_date": "2020-01-24"
+    },
+    {
+      "popularity": 153.142,
+      "vote_count": 2652,
+      "video": false,
+      "poster_path": "/mDeTqCBAoRHD9zQXZefhtJs2sez.jpg",
+      "id": 442249,
+      "adult": false,
+      "backdrop_path": "/r4clWIxKeWoqrHspQP0XunuUmB7.jpg",
+      "original_language": "en",
+      "original_title": "The First Purge",
+      "genre_ids": [
+        28,
+        27,
+        878,
+        53
+      ],
+      "title": "A Primeira Noite de Crime",
+      "vote_average": 5.9,
+      "overview": "O governo americano cria uma nova tradição para tentar diminuir a criminalidade: a Noite de Crime. Por doze horas, qualquer tipo de violência passa a ser permitida dentro de uma certa vizinhança, que fica tomada pelo medo. Mas, quando o experimento tem início, os moradores do local decidem revidar.",
+      "release_date": "2018-07-04"
+    },
+    {
+      "popularity": 163.068,
+      "vote_count": 11,
+      "video": false,
+      "poster_path": "/hNvOilYbemMkaVpDktvwAEeH9sz.jpg",
+      "id": 655431,
+      "adult": false,
+      "backdrop_path": "/o8GLT097z1Z7w7FQxs5u2yKPIyj.jpg",
+      "original_language": "ja",
+      "original_title": "PSYCHO-PASS サイコパス 3 FIRST INSPECTOR",
+      "genre_ids": [
+        878,
+        28,
+        80
+      ],
+      "title": "PSYCHO-PASS サイコパス 3 FIRST INSPECTOR",
+      "vote_average": 7.1,
+      "overview": "",
+      "release_date": "2020-03-27"
+    },
+    {
+      "popularity": 153.903,
+      "id": 324857,
+      "video": false,
+      "vote_count": 8269,
+      "vote_average": 8.4,
+      "title": "Homem-Aranha no Aranhaverso",
+      "release_date": "2018-12-06",
+      "original_language": "en",
+      "original_title": "Spider-Man: Into the Spider-Verse",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        878,
+        35
+      ],
+      "backdrop_path": "/7d6EY00g1c39SGZOoCJ5Py9nNth.jpg",
+      "adult": false,
+      "overview": "Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras variações do Homem-Aranha.",
+      "poster_path": "/ybQSBSrINtjWsJQ6Ih8sva8HlEZ.jpg"
+    },
+    {
+      "popularity": 172.369,
+      "vote_count": 186,
+      "video": false,
+      "poster_path": "/AbUO3tYs0cckhwlDxBqyX7QiWND.jpg",
+      "id": 208763,
+      "adult": false,
+      "backdrop_path": "/d7SWh0taIIfWyO2Yuy2wrO6z6p6.jpg",
+      "original_language": "ru",
+      "original_title": "Вий",
+      "genre_ids": [
+        12,
+        14,
+        27,
+        9648,
+        878,
+        53
+      ],
+      "title": "Império Proibido",
+      "vote_average": 5.8,
+      "overview": "Jonathan Green, um cartógrafo inglês, se aventura em uma viagem para mapear as terras desconhecidas da Transilvânia, a fim de descobrir os segredos obscuros escondidos lá e as criaturas perigosas de uma floresta amaldiçoada e fantástica da Ucrânia.",
+      "release_date": "2014-01-30"
+    },
+    {
+      "popularity": 151.647,
+      "id": 335983,
+      "video": false,
+      "vote_count": 9780,
+      "vote_average": 6.7,
+      "title": "Venom",
+      "release_date": "2018-09-28",
+      "original_language": "en",
+      "original_title": "Venom",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "adult": false,
+      "overview": "O jornalista Eddie Brock desenvolve força e poder sobre-humanos quando seu corpo se funde com o alienígena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie",
+      "poster_path": "/qZK4LSj7crL6RNGUfD1LSJioA4u.jpg"
+    },
+    {
+      "popularity": 144.788,
+      "id": 461130,
+      "video": false,
+      "vote_count": 942,
+      "vote_average": 6.2,
+      "title": "Code 8: Renegados",
+      "release_date": "2019-12-06",
+      "original_language": "en",
+      "original_title": "Code 8",
+      "genre_ids": [
+        878,
+        28,
+        80,
+        53,
+        18
+      ],
+      "backdrop_path": "/wlnDNMQlnwl5ETlVY6n9CEtR5s0.jpg",
+      "adult": false,
+      "overview": "Num mundo onde pessoas com habilidades “especiais” vivem na pobreza, Conner Reed é um jovem poderoso que está a lutar para pagar pelo tratamento médico da sua mãe doente. Para ganhar dinheiro, ele entra num mundo criminoso e lucrativo, liderado por Garrett, que trabalha para um traficante de drogas.",
+      "poster_path": "/yOj7bYYyMMqiqgh7Bu7qxLwtbsz.jpg"
+    },
+    {
+      "popularity": 130.067,
+      "vote_count": 6121,
+      "video": false,
+      "poster_path": "/sKKW81Rq5I2bJXwyEEZVyXwGft4.jpg",
+      "id": 158015,
+      "adult": false,
+      "backdrop_path": "/tZ0A51DX5UKJbpa15RX0FyduVQT.jpg",
+      "original_language": "en",
+      "original_title": "The Purge",
+      "genre_ids": [
+        878,
+        27,
+        53
+      ],
+      "title": "Uma Noite de Crime",
+      "vote_average": 6.2,
+      "overview": "Nos Estados Unidos, uma lei permite toda e qualquer atividade ilegal por 12 horas. Nesta noite de crime, conhecida como A Purificação, a família de James Sandin, que vive dos lucros das vendas de equipamentos de segurança domiciliar, tenta sobreviver ao ser encurralada em sua própria casa.",
+      "release_date": "2013-05-31"
+    },
+    {
+      "popularity": 143.145,
+      "vote_count": 4,
+      "video": false,
+      "poster_path": "/9KXbCitUQisFZNsOaXfsxt9HC9p.jpg",
+      "id": 680295,
+      "adult": false,
+      "backdrop_path": "/kq4XmPg0l4vBHf8A6SCGdboOukg.jpg",
+      "original_language": "en",
+      "original_title": "A Feral World",
+      "genre_ids": [
+        18,
+        27,
+        878
+      ],
+      "title": "A Feral World",
+      "vote_average": 5.6,
+      "overview": "",
+      "release_date": "2020-09-22"
+    },
+    {
+      "popularity": 146.297,
+      "id": 345940,
+      "video": false,
+      "vote_count": 4584,
+      "vote_average": 6.1,
+      "title": "Megatubarão",
+      "release_date": "2018-08-09",
+      "original_language": "en",
+      "original_title": "The Meg",
+      "genre_ids": [
+        28,
+        878,
+        27
+      ],
+      "backdrop_path": "/rH79sB6Nkx4cMW3JzsUy7wK0rhX.jpg",
+      "adult": false,
+      "overview": "Na fossa mais profunda do Oceano Pacífico, a tripulação de um submarino fica presa dentro do local após ser atacada por uma criatura pré-histórica que se achava estar extinta, um tubarão de mais de 20 metros de comprimento, o Megalodon. Para salvá-los, um oceanógrafo chinês contrata Jonas Taylor, um mergulhador especializado em resgates em água profundas que já encontrou com a criatura anteriormente.",
+      "poster_path": "/wrJkShDPK4TcV0nHix3HASEmkul.jpg"
+    }
+  ]
+}
